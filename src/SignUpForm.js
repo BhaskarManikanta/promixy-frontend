@@ -39,10 +39,12 @@ const SignUpForm = () => {
           setError(data.error || 'Something went wrong');
           setSuccess('');
         } else {
-          setSuccess('User registered successfully!');
+          setSuccess('Thanks for Registration!');
           setError('');
           setFormData({ name: '', email: '' });
-          window.location.href = 'https://promixy1.blogspot.com';
+          setTimeout(()=>{
+             window.location.href = 'https://promixy1.blogspot.com';
+          },2000)
         }
       } catch (err) {
         setError('Failed to connect to server');
