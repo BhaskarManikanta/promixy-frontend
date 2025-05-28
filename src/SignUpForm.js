@@ -58,7 +58,7 @@ const SignUpForm = () => {
     <div style={styles.container}>
       <div style={styles.box}>
         <h2 style={styles.heading}>Sign up</h2>
-        <p style={styles.subheading}>Sign up to continue</p>
+        <p style={styles.subheading}>Join and get Instant Access to Premium Tools</p>
         <form onSubmit={handleSubmit} style={styles.form}>
           <input
             type="text"
